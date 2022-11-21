@@ -26,6 +26,7 @@ static void Ceka(string cumle)
 		{    cumle=cumle.ToUpper();	
 			Console.Write(cumle[i]);
 			i++;
+		  continue;
 		}
 		
 		Console.Write(cumle[i]);
